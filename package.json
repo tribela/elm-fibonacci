@@ -1,0 +1,16 @@
+{
+  "name": "elm-fibonacci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "elm-webpack-loader": "^4.2.0",
+    "file-loader": "^0.10.0",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "dev": "webpack-dev-server --port 3000"
+  }
+}
