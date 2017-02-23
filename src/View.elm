@@ -20,4 +20,4 @@ renderModel model =
     model
         |> Array.toList
         |> List.map (\l -> li [] [ text (toString l) ])
-        |> ul []
+        |> ol []
