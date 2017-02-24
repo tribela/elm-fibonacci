@@ -11,6 +11,7 @@ import Html exposing (..)
 
 -- MAIN
 
+main : Program Never Model Msg
 main =
     program
         { init = init

@@ -6,6 +6,7 @@
   "dependencies": {
     "elm-webpack-loader": "^4.2.0",
     "file-loader": "^0.10.0",
+    "manifest-revision-webpack-plugin": "^0.4.0",
     "webpack": "^2.2.1",
     "webpack-dev-server": "^2.4.1"
   },
